@@ -7,6 +7,8 @@ import MyCalc from "./MyCalc.jsx";
 import EventBasic from "./EventBasic.jsx";
 import StateBasic from "./StateBasic.jsx";
 import reportWebVitals from "./reportWebVitals.js";
+import StateEffect from "./StateEffect.jsx";
+import StateParent from "./stateParent.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,6 +20,8 @@ root.render(
     <EventBasic />
     <StateBasic init={0} />
     <StateBasic init={0} />
+    <StateEffect init={10} />
+    <StateParent />
   </React.StrictMode>
 );
 
