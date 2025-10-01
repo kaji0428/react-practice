@@ -9,6 +9,7 @@ import StateBasic from "./StateBasic.jsx";
 import reportWebVitals from "./reportWebVitals.js";
 import StateEffect from "./StateEffect.jsx";
 import StateParent from "./stateParent.jsx";
+import MyForm from "./MyForm.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,7 @@ root.render(
     <StateBasic init={0} />
     <StateEffect init={10} />
     <StateParent />
+    <MyForm />
   </React.StrictMode>
 );
 
